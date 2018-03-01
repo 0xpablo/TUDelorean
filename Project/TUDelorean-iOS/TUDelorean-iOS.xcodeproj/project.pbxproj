@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25EA89DC20481F41007710F3 /* TUDelorean.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EA89DA20481F41007710F3 /* TUDelorean.m */; };
+		25EA89DD20481F41007710F3 /* TUDelorean.h in Headers */ = {isa = PBXBuildFile; fileRef = 25EA89DB20481F41007710F3 /* TUDelorean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25EA89DE20481F4B007710F3 /* TUDelorean.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EA89DA20481F41007710F3 /* TUDelorean.m */; };
 		65BF8EEF176E6C1700106D1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BF8EEE176E6C1700106D1E /* Foundation.framework */; };
 		65BF8EFE176E6C1800106D1E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BF8EFD176E6C1800106D1E /* SenTestingKit.framework */; };
 		65BF8F00176E6C1800106D1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BF8EFF176E6C1800106D1E /* UIKit.framework */; };
 		65BF8F01176E6C1800106D1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BF8EEE176E6C1700106D1E /* Foundation.framework */; };
 		65BF8F04176E6C1800106D1E /* libTUDelorean-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BF8EEB176E6C1700106D1E /* libTUDelorean-iOS.a */; };
 		65BF8F0A176E6C1800106D1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65BF8F08176E6C1800106D1E /* InfoPlist.strings */; };
-		65BF8F18176E6C3800106D1E /* TUDelorean.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BF8F17176E6C3800106D1E /* TUDelorean.m */; };
 		65BF8F1A176E6C4400106D1E /* TUDeloreanTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BF8F19176E6C4400106D1E /* TUDeloreanTest.m */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		25EA89CF20481E47007710F3 /* TUDelorean.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TUDelorean.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EA89D220481E47007710F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EA89DA20481F41007710F3 /* TUDelorean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TUDelorean.m; path = ../../../Classes/common/TUDelorean.m; sourceTree = "<group>"; };
+		25EA89DB20481F41007710F3 /* TUDelorean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TUDelorean.h; path = ../../../Classes/common/TUDelorean.h; sourceTree = "<group>"; };
 		65BF8EEB176E6C1700106D1E /* libTUDelorean-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libTUDelorean-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BF8EEE176E6C1700106D1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		65BF8EF2176E6C1700106D1E /* TUDelorean-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TUDelorean-iOS-Prefix.pch"; sourceTree = "<group>"; };
@@ -48,12 +54,17 @@
 		65BF8EFF176E6C1800106D1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		65BF8F07176E6C1800106D1E /* TUDelorean-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TUDelorean-iOSTests-Info.plist"; sourceTree = "<group>"; };
 		65BF8F09176E6C1800106D1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		65BF8F16176E6C3800106D1E /* TUDelorean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TUDelorean.h; path = ../../../Classes/common/TUDelorean.h; sourceTree = "<group>"; };
-		65BF8F17176E6C3800106D1E /* TUDelorean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TUDelorean.m; path = ../../../Classes/common/TUDelorean.m; sourceTree = "<group>"; };
 		65BF8F19176E6C4400106D1E /* TUDeloreanTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TUDeloreanTest.m; path = ../../common/TUDeloreanTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		25EA89CB20481E47007710F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65BF8EE8176E6C1700106D1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,11 +87,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25EA89D020481E47007710F3 /* TUDelorean-iOS-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				25EA89DB20481F41007710F3 /* TUDelorean.h */,
+				25EA89DA20481F41007710F3 /* TUDelorean.m */,
+				25EA89D220481E47007710F3 /* Info.plist */,
+			);
+			path = "TUDelorean-iOS-Framework";
+			sourceTree = "<group>";
+		};
 		65BF8EE2176E6C1700106D1E = {
 			isa = PBXGroup;
 			children = (
 				65BF8EF0176E6C1700106D1E /* TUDelorean-iOS */,
 				65BF8F05176E6C1800106D1E /* TUDelorean-iOSTests */,
+				25EA89D020481E47007710F3 /* TUDelorean-iOS-Framework */,
 				65BF8EED176E6C1700106D1E /* Frameworks */,
 				65BF8EEC176E6C1700106D1E /* Products */,
 			);
@@ -91,6 +113,7 @@
 			children = (
 				65BF8EEB176E6C1700106D1E /* libTUDelorean-iOS.a */,
 				65BF8EFC176E6C1800106D1E /* TUDelorean-iOSTests.octest */,
+				25EA89CF20481E47007710F3 /* TUDelorean.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,8 +131,6 @@
 		65BF8EF0176E6C1700106D1E /* TUDelorean-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				65BF8F16176E6C3800106D1E /* TUDelorean.h */,
-				65BF8F17176E6C3800106D1E /* TUDelorean.m */,
 				65BF8EF1176E6C1700106D1E /* Supporting Files */,
 			);
 			path = "TUDelorean-iOS";
@@ -143,7 +164,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		25EA89CC20481E47007710F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EA89DD20481F41007710F3 /* TUDelorean.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		25EA89CE20481E47007710F3 /* TUDelorean-iOS-Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EA89D620481E47007710F3 /* Build configuration list for PBXNativeTarget "TUDelorean-iOS-Framework" */;
+			buildPhases = (
+				25EA89CA20481E47007710F3 /* Sources */,
+				25EA89CB20481E47007710F3 /* Frameworks */,
+				25EA89CC20481E47007710F3 /* Headers */,
+				25EA89CD20481E47007710F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TUDelorean-iOS-Framework";
+			productName = "TUDelorean-iOS-Framework";
+			productReference = 25EA89CF20481E47007710F3 /* TUDelorean.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		65BF8EEA176E6C1700106D1E /* TUDelorean-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65BF8F10176E6C1800106D1E /* Build configuration list for PBXNativeTarget "TUDelorean-iOS" */;
@@ -188,6 +238,12 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Tuenti Technologies S.L.";
+				TargetAttributes = {
+					25EA89CE20481E47007710F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 65BF8EE6176E6C1700106D1E /* Build configuration list for PBXProject "TUDelorean-iOS" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -203,11 +259,19 @@
 			targets = (
 				65BF8EEA176E6C1700106D1E /* TUDelorean-iOS */,
 				65BF8EFB176E6C1800106D1E /* TUDelorean-iOSTests */,
+				25EA89CE20481E47007710F3 /* TUDelorean-iOS-Framework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		25EA89CD20481E47007710F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65BF8EF9176E6C1800106D1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,11 +299,19 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		25EA89CA20481E47007710F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EA89DC20481F41007710F3 /* TUDelorean.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65BF8EE7176E6C1700106D1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65BF8F18176E6C3800106D1E /* TUDelorean.m in Sources */,
+				25EA89DE20481F4B007710F3 /* TUDelorean.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +345,107 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		25EA89D420481E47007710F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "TUDelorean-iOS-Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tuenti.TUDelorean-iOS-Framework";
+				PRODUCT_MODULE_NAME = TUDelorean;
+				PRODUCT_NAME = TUDelorean;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25EA89D520481E47007710F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "TUDelorean-iOS-Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tuenti.TUDelorean-iOS-Framework";
+				PRODUCT_MODULE_NAME = TUDelorean;
+				PRODUCT_NAME = TUDelorean;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		65BF8F0E176E6C1800106D1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -415,6 +588,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		25EA89D620481E47007710F3 /* Build configuration list for PBXNativeTarget "TUDelorean-iOS-Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EA89D420481E47007710F3 /* Debug */,
+				25EA89D520481E47007710F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		65BF8EE6176E6C1700106D1E /* Build configuration list for PBXProject "TUDelorean-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -431,6 +613,7 @@
 				65BF8F12176E6C1800106D1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65BF8F13176E6C1800106D1E /* Build configuration list for PBXNativeTarget "TUDelorean-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +622,7 @@
 				65BF8F15176E6C1800106D1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
